@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Administración del Satélite Jerecuaro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Core styling -->
+  <link rel="stylesheet" href="/assets/style.css">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+</head>
+
+<body>
+
+<!-- =====================================================
+ NAVIGATION
+===================================================== -->
+<nav class="main-nav" id="nav-main">
+  <a href="#overview">Visión general</a>
+  <a href="#contract">Contrato inteligente</a>
+  <a href="#guardian">Guardian</a>
+  <a href="#live">En vivo</a>
+  <a href="#roles">Roles</a>
+  <a href="#admin">Administración</a>
+  <a href="https://cosigo.io" target="_blank" rel="noopener">Cosigo</a>
+</nav>
+
+<!-- =====================================================
+ HEADER
+===================================================== -->
+<header class="site-header" id="site-header">
+  <img src="/assets/brand/cosigo-logo.svg" alt="Cosigo" class="site-logo">
+  <h1>Satélite Jerecuaro</h1>
+  <p class="tagline">
+    Administración satélite independiente — asociada con el proyecto Cosigo
+  </p>
+</header>
+
+<main id="content">
+
+<!-- =====================================================
+ OVERVIEW
+===================================================== -->
+<section id="overview">
+  <h2>Visión general</h2>
+  <p>Este satélite opera de manera independiente y cuenta con gobernanza local.</p>
+  <p>Todos los activos en cadena permanecen verificables dentro del ecosistema Cosigo.</p>
+</section>
+
+<!-- =====================================================
+ SMART CONTRACT + ORIGIN TOKEN
+===================================================== -->
+<section id="contract">
+  <h2>
+    Contrato inteligente
+    <span class="badge"><img src="/assets/icons/eth.svg" alt="Ethereum" class="eth-icon">
+      Ethereum Mainnet
+    </span>
+  </h2>
+
+  <p>Contrato principal del satélite:</p>
+
+  <p>
+  Este satélite opera mediante un contrato inteligente en Ethereum que define
+  la emisión de tokens, las reglas de redención y los permisos administrativos.
+  Toda la actividad del contrato es verificable públicamente en la cadena de bloques de Ethereum.
+  </p>
+
+  <p class="addr">
+    <a
+      href="https://etherscan.io/address/0x1FB6Ae6f659b12755C32084d3732b05f60Ed067b"
+      target="_blank"
+      rel="noopener"
+    >
+      0x1FB6Ae6f…d067b
+    </a>
+    <button onclick="copyAddr('0x1FB6Ae6f659b12755C32084d3732b05f60Ed067b')">
+      Copiar
+    </button>
+  </p>
+
+    <!-- Origin token -->
+  <div class="origin-token">
+    <a href="https://cosigo.io" target="_blank" rel="noopener">
+      <img
+        src="/assets/icons/COSIGOSPIN-100.gif"
+        alt="Token de origen Cosigo"
+      >
+    </a>
+  </div>
+
+  <h3>Bóveda de quema (Burn Vault)</h3>
+
+  <p>
+  La Bóveda de quema es una dirección dedicada para retirar tokens de circulación de forma permanente.
+  Los tokens enviados a esta dirección se consideran quemados de manera irreversible.
+  </p>
+
+  <p class="addr">
+  <a
+    href="https://etherscan.io/address/0x7E08544FdD7b6aAFF5A9C58D4b506253c8B6a16a"
+    target="_blank"
+    rel="noopener"
+  >
+    0x7E08544F…6a16a
+  </a>
+  <button onclick="copyAddr('0x7E08544FdD7b6aAFF5A9C58D4b506253c8B6a16a')">Copiar</button>
+  </p>
+
+</section>
+
+<!-- =====================================================
+ GUARDIAN
+===================================================== -->
+<section id="guardian">
+  <h2>Guardian</h2>
+
+  <p>
+    El contrato Guardian aplica reglas globales de integridad en todo el ecosistema Cosigo,
+    incluyendo la consistencia del Codex y la autorización de satélites.
+  </p>
+
+  <p class="addr">
+    <a
+      href="https://etherscan.io/address/0x23d62338959d1F2ad9FA8A49c6D12f572a0F0B20"
+      target="_blank"
+      rel="noopener"
+    >
+      0x23d62338…F0B20
+    </a>
+    <button onclick="copyAddr('0x23d62338959d1F2ad9FA8A49c6D12f572a0F0B20')">
+      Copiar
+    </button>
+  </p>
+
+  <p>El Guardian opera de manera independiente a los satélites individuales.</p>
+</section>
+
+<!-- =====================================================
+ LIVE STREAM + TICKER
+===================================================== -->
+<section id="live">
+  <h2>Transmisión en vivo</h2>
+
+  <p>Transmisión en directo desde la red Cosigo.</p>
+
+  <div style="max-width:720px;">
+    <iframe
+      src="https://stream.cosigo.io/embed/video"
+      width="100%"
+      height="405"
+      frameborder="0"
+      allowfullscreen
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <p>
+    <strong>En vivo (hablo español):</strong>
+    <a href="https://stream.cosigo.io" target="_blank" rel="noopener">
+      ver transmisión completa y contiene sala de chat
+    </a>
+  </p>
+
+  <!-- Market ticker -->
+  <div class="crypto-ticker">
+    <iframe
+      src="/assets/ticker.html"
+      style="width:100%;height:48px;border:0;"
+      loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+<!-- =====================================================
+ ROLES
+===================================================== -->
+<section id="roles">
+  <h2>Roles</h2>
+
+  <ul>
+    <li>
+      <strong>Administrador / Propietario (Cold Storage):</strong>
+      <span class="addr">
+        <a href="https://etherscan.io/address/0x46b38e729aeecd7163ba24d9d2cf7e76628ee2ac" target="_blank" rel="noopener">
+          0x46b38e72…ee2ac
+        </a>
+        <button onclick="copyAddr('0x46b38e729aeecd7163ba24d9d2cf7e76628ee2ac')">Copiar</button>
+      </span>
+    </li>
+
+    <li>
+      <strong>Custodio (Cold Storage):</strong>
+      <span class="addr">
+        <a href="https://etherscan.io/address/0x50d995bdf743c06321434173340ccd518c87ac6f" target="_blank" rel="noopener">
+          0x50d995bd…7ac6f
+        </a>
+        <button onclick="copyAddr('0x50d995bdf743c06321434173340ccd518c87ac6f')">Copiar</button>
+      </span>
+    </li>
+
+    <li>
+      <strong>Emisor / Minter (Cold Storage):</strong>
+      <span class="addr">
+        <a href="https://etherscan.io/address/0x51f065fa8c09a6cc8ab9a488aa17f1a17f203efd" target="_blank" rel="noopener">
+          0x51f065fa…03efd
+        </a>
+        <button onclick="copyAddr('0x51f065fa8c09a6cc8ab9a488aa17f1a17f203efd')">Copiar</button>
+      </span>
+    </li>
+
+    <li>
+      <strong>Fondo de tarifas (Cold Storage):</strong>
+      <span class="addr">
+        <a href="https://etherscan.io/address/0x7adf1cb20e68aa912ec76153df45013765abb233" target="_blank" rel="noopener">
+          0x7adf1cb2…bb233
+        </a>
+        <button onclick="copyAddr('0x7adf1cb20e68aa912ec76153df45013765abb233')">Copiar</button>
+      </span>
+    </li>
+  </ul>
+
+  <p>
+    Todas las direcciones listadas se mantienen en almacenamiento en frío.
+    Las claves privadas permanecen fuera de línea y nunca se publican.
+  </p>
+</section>
+
+<!-- =====================================================
+ ADMINISTRATION
+===================================================== -->
+<section id="admin">
+  <h2>Administración</h2>
+
+  <ul>
+    <li>Registros del custodio</li>
+    <li>Constancias de depósito</li>
+    <li>Políticas de redención</li>
+    <li>Avisos del operador</li>
+  </ul>
+
+  <p><em>Herramientas administrativas próximamente.</em></p>
+</section>
+
+</main>
+
+<!-- =====================================================
+ FOOTER
+===================================================== -->
+<footer>
+  <p>
+    Asociado con <a href="https://cosigo.io">cosigo.io</a> •
+    Operación satélite independiente
+  </p>
+</footer>
+
+<!-- =====================================================
+ UTILITIES
+===================================================== -->
+<script>
+function copyAddr(addr) {
+  navigator.clipboard.writeText(addr).then(() => {
+    alert("Dirección copiada al portapapeles");
+  });
+}
+</script>
+
+</body>
+</html>
