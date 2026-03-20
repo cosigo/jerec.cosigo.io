@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8">
 
@@ -8,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta name="description"
-        content="COSIGO Jerecuaro es un satélite local del sistema COSIGO para la custodia y representación transparente de plata física registrada.">
+    content="COSIGO Jerecuaro es un satélite local del sistema COSIGO para la custodia y representación transparente de plata física registrada.">
 
   <meta name="robots" content="index,follow">
 
@@ -17,7 +18,7 @@
   <!-- Open Graph / Sharing -->
   <meta property="og:title" content="COSIGO Jerecuaro — Satélite Local de Plata Registrada">
   <meta property="og:description"
-        content="Satélite local del sistema COSIGO para la custodia y representación transparente de plata física registrada.">
+    content="Satélite local del sistema COSIGO para la custodia y representación transparente de plata física registrada.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://jerecuaro.cosigo.io/">
   <meta property="og:image" content="https://cosigo.io/shared/assets/cosigo_master/cosigo_master_512.png">
@@ -26,260 +27,262 @@
   <link rel="stylesheet" href="/assets/style.css">
 
   <!-- Favicons -->
-  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.ico?v=3" sizes="any">
+
+  <!-- modern primary -->
   <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+
+  <!-- png fallbacks -->
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
-  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+
+  <!-- mobile / app -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/favicon-192x192.png">
+
+  <meta name="theme-color" content="#06070a">
+
 </head>
 
 <body>
 
-<!-- =====================================================
+  <!-- =====================================================
  NAVIGATION
 ===================================================== -->
-<nav class="main-nav" id="nav-main">
-  <a href="#overview">Visión general</a>
-  <a href="#contract">Contrato inteligente</a>
-  <a href="#guardian">Guardian</a>
-  <a href="#live">En vivo</a>
-  <a href="#roles">Roles</a>
-  <a href="#admin">Administración</a>
-  <a href="https://cosigo.io" target="_blank" rel="noopener">COSIGO</a>
-</nav>
+  <nav class="main-nav" id="nav-main">
+    <a href="#overview">Visión general</a>
+    <a href="#contract">Contrato inteligente</a>
+    <a href="#guardian">Guardian</a>
+    <a href="#live">En vivo</a>
+    <a href="#roles">Roles</a>
+    <a href="#admin">Administración</a>
+    <a href="https://cosigo.io" target="_blank" rel="noopener">COSIGO</a>
+  </nav>
 
-<!-- =====================================================
+  <!-- =====================================================
  HEADER
 ===================================================== -->
-<header class="site-header" id="site-header">
-  <img src="/assets/cosigo_master/cosigo_master_64.png" alt="COSIGO" class="site-logo">
-  <h1>Satélite Jerecuaro</h1>
-  <p class="tagline">
-    Operación satélite independiente — asociada con el proyecto COSIGO&trade;
-  </p>
-</header>
+  <header class="site-header" id="site-header">
+    <img src="/assets/cosigo_master/cosigo_master_64.png" alt="COSIGO" class="site-logo">
+    <h1>Satélite Jerecuaro</h1>
+    <p class="tagline">
+      Operación satélite independiente — asociada con el proyecto COSIGO&trade;
+    </p>
+  </header>
 
-<main id="content">
+  <main id="content">
 
-<!-- =====================================================
+    <!-- =====================================================
  OVERVIEW
 ===================================================== -->
-<section id="overview">
-  <h2>Visión general</h2>
-  <p>Este satélite opera de manera independiente y cuenta con gobernanza local.</p>
-  <p>Todos los activos en cadena permanecen verificables dentro del ecosistema COSIGO.</p>
-</section>
+    <section id="overview">
+      <h2>Visión general</h2>
+      <p>Este satélite opera de manera independiente y cuenta con gobernanza local.</p>
+      <p>Todos los activos en cadena permanecen verificables dentro del ecosistema COSIGO.</p>
+    </section>
 
-<!-- =====================================================
+    <!-- =====================================================
  SMART CONTRACT
 ===================================================== -->
-<section id="contract">
-  <h2>
-    Contrato inteligente
-    <span class="badge">
-      <img src="/assets/icons/eth.svg" alt="Ethereum" class="eth-icon">
-      Ethereum Mainnet
-    </span>
-  </h2>
+    <section id="contract">
+      <h2>
+        Contrato inteligente
+        <span class="badge">
+          <img src="/assets/icons/eth.svg" alt="Ethereum" class="eth-icon">
+          Ethereum Mainnet
+        </span>
+      </h2>
 
-  <p>
-    Este satélite opera mediante un contrato inteligente en Ethereum que define
-    la emisión de tokens, las reglas de redención y los permisos administrativos.
-    Toda la actividad es verificable públicamente en la cadena.
-  </p>
+      <p>
+        Este satélite opera mediante un contrato inteligente en Ethereum que define
+        la emisión de tokens, las reglas de redención y los permisos administrativos.
+        Toda la actividad es verificable públicamente en la cadena.
+      </p>
 
-  <p class="addr">
-    <a href="https://etherscan.io/address/0x1FB6Ae6f659b12755C32084d3732b05f60Ed067b"
-       target="_blank" rel="noopener">
-      0x1FB6Ae6f…d067b
-    </a>
-    <button onclick="copyAddr('0x1FB6Ae6f659b12755C32084d3732b05f60Ed067b')">Copiar</button>
-  </p>
+      <p class="addr">
+        <a href="https://etherscan.io/address/0x1FB6Ae6f659b12755C32084d3732b05f60Ed067b" target="_blank"
+          rel="noopener">
+          0x1FB6Ae6f…d067b
+        </a>
+        <button onclick="copyAddr('0x1FB6Ae6f659b12755C32084d3732b05f60Ed067b')">Copiar</button>
+      </p>
 
-  <h3>Bóveda de quema (Burn Vault)</h3>
+      <h3>Bóveda de quema (Burn Vault)</h3>
 
-  <p>
-    Dirección dedicada para retirar tokens de circulación de forma permanente.
-  </p>
+      <p>
+        Dirección dedicada para retirar tokens de circulación de forma permanente.
+      </p>
 
-  <p class="addr">
-    <a href="https://etherscan.io/address/0x7E08544FdD7b6aAFF5A9C58D4b506253c8B6a16a"
-       target="_blank" rel="noopener">
-      0x7E08544F…6a16a
-    </a>
-    <button onclick="copyAddr('0x7E08544FdD7b6aAFF5A9C58D4b506253c8B6a16a')">Copiar</button>
-  </p>
+      <p class="addr">
+        <a href="https://etherscan.io/address/0x7E08544FdD7b6aAFF5A9C58D4b506253c8B6a16a" target="_blank"
+          rel="noopener">
+          0x7E08544F…6a16a
+        </a>
+        <button onclick="copyAddr('0x7E08544FdD7b6aAFF5A9C58D4b506253c8B6a16a')">Copiar</button>
+      </p>
 
-  <!-- Origin token -->
-  <div class="origin-token">
-    <a href="https://etherscan.io/address/0x1FB6Ae6f659b12755C32084d3732b05f60Ed067b" target="_blank" rel="noopener">
-      <img
-        src="/assets/cosigo_master/cosigo_obv_rev_flip_final_256.gif"
-        alt="COSIGO origin token"
-      >
-    </a>
-  </div>
+      <!-- Origin token -->
+      <div class="origin-token">
+        <a href="https://etherscan.io/address/0x1FB6Ae6f659b12755C32084d3732b05f60Ed067b" target="_blank"
+          rel="noopener">
+          <img src="/assets/cosigo_master/cosigo_obv_rev_flip_final_256.gif" alt="COSIGO origin token">
+        </a>
+      </div>
 
-</section>
+    </section>
 
-<!-- =====================================================
+    <!-- =====================================================
  GUARDIAN
 ===================================================== -->
-<section id="guardian">
-  <h2>Guardian</h2>
+    <section id="guardian">
+      <h2>Guardian</h2>
 
-  <p>
-    El contrato Guardian aplica reglas globales de integridad en todo el ecosistema COSIGO,
-    incluyendo autorización de satélites y consistencia del Codex.
-  </p>
+      <p>
+        El contrato Guardian aplica reglas globales de integridad en todo el ecosistema COSIGO,
+        incluyendo autorización de satélites y consistencia del Codex.
+      </p>
 
-  <p class="addr">
-    <a href="https://etherscan.io/address/0x23d62338959d1F2ad9FA8A49c6D12f572a0F0B20"
-       target="_blank" rel="noopener">
-      0x23d62338…F0B20
-    </a>
-    <button onclick="copyAddr('0x23d62338959d1F2ad9FA8A49c6D12f572a0F0B20')">Copiar</button>
-  </p>
-</section>
+      <p class="addr">
+        <a href="https://etherscan.io/address/0x23d62338959d1F2ad9FA8A49c6D12f572a0F0B20" target="_blank"
+          rel="noopener">
+          0x23d62338…F0B20
+        </a>
+        <button onclick="copyAddr('0x23d62338959d1F2ad9FA8A49c6D12f572a0F0B20')">Copiar</button>
+      </p>
+    </section>
 
-<!-- =====================================================
+    <!-- =====================================================
  LIVE STREAM
 ===================================================== -->
-<section id="live">
-  <h2>Transmisión en vivo</h2>
+    <section id="live">
+      <h2>Transmisión en vivo</h2>
 
-  <div style="max-width:720px;">
-    <iframe src="https://stream.cosigo.io/embed/video"
-            width="100%" height="405"
-            frameborder="0"
-            allowfullscreen loading="lazy">
-    </iframe>
-  </div>
+      <div style="max-width:720px;">
+        <iframe src="https://stream.cosigo.io/embed/video" width="100%" height="405" frameborder="0" allowfullscreen
+          loading="lazy">
+        </iframe>
+      </div>
 
-  <p>
-    <strong>En vivo:</strong>
-    <a href="https://stream.cosigo.io" target="_blank" rel="noopener">
-      ver transmisión completa y sala de chat
-    </a>
-  </p>
+      <p>
+        <strong>En vivo:</strong>
+        <a href="https://stream.cosigo.io" target="_blank" rel="noopener">
+          ver transmisión completa y sala de chat
+        </a>
+      </p>
 
-    <!-- Market ticker (same as Nixa) -->
-  <div class="crypto-ticker">
-    <iframe
-      src="/assets/ticker.html"
-      style="width:100%;height:54px;border:0;"
-      loading="lazy">
-    </iframe>
-  </div>
+      <!-- Market ticker (same as Nixa) -->
+      <div class="crypto-ticker">
+        <iframe src="/assets/ticker.html" style="width:100%;height:54px;border:0;" loading="lazy">
+        </iframe>
+      </div>
 
-</section>
+    </section>
 
-<!-- =====================================================
+    <!-- =====================================================
  ROLES
 ===================================================== -->
-<section id="roles">
-  <h2>Roles</h2>
+    <section id="roles">
+      <h2>Roles</h2>
 
-  <ul>
-    <li>
-      <strong>Administrador / Propietario:</strong>
-      <span class="addr">
-        <a href="https://etherscan.io/address/0x46b38e729aeecd7163ba24d9d2cf7e76628ee2ac" target="_blank" rel="noopener">
-          0x35af6ba2…2ca03
-        </a>
-        <button onclick="copyAddr('0x0x46b38E729aEecD7163bA24D9D2Cf7E76628eE2AC')">Copy</button>
-      </span>
-    </li>
+      <ul>
+        <li>
+          <strong>Administrador / Propietario:</strong>
+          <span class="addr">
+            <a href="https://etherscan.io/address/0x46b38e729aeecd7163ba24d9d2cf7e76628ee2ac" target="_blank"
+              rel="noopener">
+              0x35af6ba2…2ca03
+            </a>
+            <button onclick="copyAddr('0x0x46b38E729aEecD7163bA24D9D2Cf7E76628eE2AC')">Copy</button>
+          </span>
+        </li>
 
-    <li>
-      <strong>Custodio:</strong>
-      <span class="addr">
-        <a href="https://etherscan.io/address/0x50d995bdf743c06321434173340ccd518c87ac6f" target="_blank" rel="noopener">
-          0x37d04c80…d6014
-        </a>
-        <button onclick="copyAddr('0x50d995BDF743c06321434173340CCd518c87ac6F')">Copy</button>
-      </span>
-    </li>
+        <li>
+          <strong>Custodio:</strong>
+          <span class="addr">
+            <a href="https://etherscan.io/address/0x50d995bdf743c06321434173340ccd518c87ac6f" target="_blank"
+              rel="noopener">
+              0x37d04c80…d6014
+            </a>
+            <button onclick="copyAddr('0x50d995BDF743c06321434173340CCd518c87ac6F')">Copy</button>
+          </span>
+        </li>
 
-    <li>
-      <strong>Emisor / Minter:</strong>
-      <span class="addr">
-        <a href="https://etherscan.io/address/0x51f065fa8c09a6cc8ab9a488aa17f1a17f203efd" target="_blank" rel="noopener">
-          0x37dc8322…5cb0
-        </a>
-        <button onclick="copyAddr('0x51F065fA8C09a6cC8ab9A488Aa17F1A17f203eFD')">Copy</button>
-      </span>
-    </li>
+        <li>
+          <strong>Emisor / Minter:</strong>
+          <span class="addr">
+            <a href="https://etherscan.io/address/0x51f065fa8c09a6cc8ab9a488aa17f1a17f203efd" target="_blank"
+              rel="noopener">
+              0x37dc8322…5cb0
+            </a>
+            <button onclick="copyAddr('0x51F065fA8C09a6cC8ab9A488Aa17F1A17f203eFD')">Copy</button>
+          </span>
+        </li>
 
-    <li>
-      <strong>Fondo de tarifas:</strong>
-      <span class="addr">
-        <a href="https://etherscan.io/address/0x7adf1cb20e68aa912ec76153df45013765abb233" target="_blank" rel="noopener">
-          0x44fd7244…4ea3e
-        </a>
-        <button onclick="copyAddr('0x7ADf1cb20e68aA912eC76153Df45013765abB233')">Copy</button>
-      </span>
-    </li>
-  </ul>
+        <li>
+          <strong>Fondo de tarifas:</strong>
+          <span class="addr">
+            <a href="https://etherscan.io/address/0x7adf1cb20e68aa912ec76153df45013765abb233" target="_blank"
+              rel="noopener">
+              0x44fd7244…4ea3e
+            </a>
+            <button onclick="copyAddr('0x7ADf1cb20e68aA912eC76153Df45013765abB233')">Copy</button>
+          </span>
+        </li>
+      </ul>
 
-  <p>
-  Las claves privadas permanecen fuera de línea y nunca se publican.
-  </p>
-</section>
+      <p>
+        Las claves privadas permanecen fuera de línea y nunca se publican.
+      </p>
+    </section>
 
-<!-- =====================================================
+    <!-- =====================================================
  ADMIN (INFORMATIONAL ONLY)
 ===================================================== -->
-<section id="admin">
- <h3>Contact Administration</h3>
+    <section id="admin">
+      <h3>Contact Administration</h3>
 
-<form class="contact-form" action="https://contact.cosigo.io/api/mail.php" method="POST">
-  <!-- Honeypot -->
-  <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+      <form class="contact-form" action="https://contact.cosigo.io/api/mail.php" method="POST">
+        <!-- Honeypot -->
+        <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off">
 
-  <!-- Redirect back to this site -->
-  <input type="hidden" name="_redirect" value="/thanks.html">
+        <!-- Redirect back to this site -->
+        <input type="hidden" name="_redirect" value="/thanks.html">
 
-  <!-- Context -->
-  <input type="hidden" name="site" value="jerec.cosigo.io">
-  <input type="hidden" name="page" id="contact_page">
-  <input type="hidden" name="subject" value="COSIGO inquiry (jerec)">
+        <!-- Context -->
+        <input type="hidden" name="site" value="jerec.cosigo.io">
+        <input type="hidden" name="page" id="contact_page">
+        <input type="hidden" name="subject" value="COSIGO inquiry (jerec)">
 
-  <label>Nombre <input name="name" required></label>
-  <label>Correo <input name="email" type="email" required></label>
-  <label>Mensaje <textarea name="message" rows="6" required></textarea></label>
+        <label>Nombre <input name="name" required></label>
+        <label>Correo <input name="email" type="email" required></label>
+        <label>Mensaje <textarea name="message" rows="6" required></textarea></label>
 
-  <button class="btn primary" type="submit">Enviar</button>
-</form>
+        <button class="btn primary" type="submit">Enviar</button>
+      </form>
 
-<script>
-  (function () {
-    var pageField = document.getElementById('contact_page');
-    if (pageField) pageField.value = location.href;
-  })();
-</script>
+      <script>
+        (function () {
+          var pageField = document.getElementById('contact_page');
+          if (pageField) pageField.value = location.href;
+        })();
+      </script>
 
-</section>
+    </section>
 
-</main>
+  </main>
 
-<!-- =====================================================
+  <!-- =====================================================
  FOOTER
 ===================================================== -->
-<footer class="site-footer">
-  <p>
-    Operación satélite independiente •
-    Asociado con <a href="https://cosigo.io">COSIGO&trade;</a> •
-    <a href="https://github.com/cosigo"
-       aria-label="Organización COSIGO en GitHub"
-       title="Repositorios de código abierto de COSIGO"
-       class="github-link">
-      <svg viewBox="0 0 16 16"
-           width="16"
-           height="16"
-           aria-hidden="true"
-           style="fill:currentColor;vertical-align:middle">
-        <path d="M8 0C3.58 0 0 3.65 0 8.15c0 3.6 2.29 6.65 5.47 7.73.4.08.55-.18.55-.39
+  <footer class="site-footer">
+    <p>
+      Operación satélite independiente •
+      Asociado con <a href="https://cosigo.io">COSIGO&trade;</a> •
+      <a href="https://github.com/cosigo" aria-label="Organización COSIGO en GitHub"
+        title="Repositorios de código abierto de COSIGO" class="github-link">
+        <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"
+          style="fill:currentColor;vertical-align:middle">
+          <path d="M8 0C3.58 0 0 3.65 0 8.15c0 3.6 2.29 6.65 5.47 7.73.4.08.55-.18.55-.39
         0-.19-.01-.82-.01-1.49-2.01.45-2.53-.5-2.69-.96-.09-.23-.48-.96-.82-1.15
         -.28-.15-.68-.52-.01-.53.63-.01 1.08.6 1.23.85.72 1.23 1.87.88
         2.33.67.07-.53.28-.88.51-1.08-1.78-.2-3.64-.91-3.64-4.05
@@ -288,20 +291,21 @@
         1.53-1.06 2.2-.84 2.2-.84.44 1.1.16 1.92.08 2.12.51.57
         .82 1.3.82 2.19 0 3.15-1.87 3.85-3.65 4.05.29.26.54.77
         .54 1.56 0 1.13-.01 2.04-.01 2.32 0 .21.15.47.55.39
-        C13.71 14.8 16 11.75 16 8.15 16 3.65 12.42 0 8 0z"/>
-      </svg>
-      <span class="visually-hidden">GitHub</span>
-    </a>
-  </p>
-</footer>
+        C13.71 14.8 16 11.75 16 8.15 16 3.65 12.42 0 8 0z" />
+        </svg>
+        <span class="visually-hidden">GitHub</span>
+      </a>
+    </p>
+  </footer>
 
-<script>
-function copyAddr(addr) {
-  navigator.clipboard.writeText(addr).then(() => {
-    alert("Dirección copiada al portapapeles");
-  });
-}
-</script>
+  <script>
+    function copyAddr(addr) {
+      navigator.clipboard.writeText(addr).then(() => {
+        alert("Dirección copiada al portapapeles");
+      });
+    }
+  </script>
 
 </body>
+
 </html>
